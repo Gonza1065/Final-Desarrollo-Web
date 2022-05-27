@@ -1,0 +1,60 @@
+.grid-places {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    .norte-america {
+        color: azure;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .tabla {
+            display: grid;
+            margin-left: 8px;
+            img {
+                height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .europa {
+        color: azure;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .tabla {
+            display: grid;
+            margin-left: 8px;
+            img {
+                height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .sudamerica {
+        color: azure;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .tabla {
+            display: grid;
+            margin-left: 8px;
+            img {
+                height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .oceania {
+        color: azure;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .tabla {
+            display: grid;
+            margin-left: 8px;
+            margin-right: 8px;
+            img {
+                height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.imagenes {
+    display: grid;
+    grid-template-rows: 2, 50%;
+    grid-template-columns: 2, 50%;
+    .fotos {
+        text-align: center;
+        color: azure;
+    }   
+}
+.videos {
+    display: grid;
+    grid-template-rows: 2, 50%;
+    grid-template-columns: 2, 50%;
+    .video {
+        text-align: center;
+        color: azure;
+    }
+    
+}
+
+

@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%; }
+
+.nav__links {
+  list-style: none; }
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.nav__links li a {
+  transition: all 0.3 ease 0s; }
+
+.nav__links img {
+  margin-right: 200px;
+  height: 50px;
+  width: 350px; }
+
+.nav__links li a:hover {
+  color: #0088a9; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s; }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+body {
+  background: rgba(0, 0, 0, 0.7) url("https://wallpapercave.com/wp/wp9155208.jpg");
+  height: fit-content;
+  background-blend-mode: darken; }
+
+main {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+  main img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    height: 180px;
+    width: 300px; }
+  main .historia {
+    color: antiquewhite;
+    margin-top: 100px;
+    margin-right: 50px; }
+
+footer {
+  background-color: aquamarine; }
+  footer .logos-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .logos-redes-sociales img {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 50px;
+      width: 50px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%; }
+
+.nav__links {
+  list-style: none; }
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.nav__links li a {
+  transition: all 0.3 ease 0s; }
+
+.nav__links img {
+  margin-right: 200px;
+  height: 50px;
+  width: 350px; }
+
+.nav__links li a:hover {
+  color: #0088a9; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s; }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+body {
+  background: rgba(0, 0, 0, 0.7) url("https://wallpapercave.com/wp/wp9155208.jpg");
+  height: fit-content;
+  background-blend-mode: darken; }
+
+.grid-places {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  text-align: center;
+  font-family: 'Oxygen', sans-serif; }
+  .grid-places .norte-america {
+    color: azure;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+    .grid-places .norte-america .tabla {
+      display: grid;
+      margin-left: 8px; }
+      .grid-places .norte-america .tabla img {
+        height: 40px;
+        margin-bottom: 10px; }
+  .grid-places .europa {
+    color: azure;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+    .grid-places .europa .tabla {
+      display: grid;
+      margin-left: 8px; }
+      .grid-places .europa .tabla img {
+        height: 40px;
+        margin-bottom: 10px; }
+  .grid-places .sudamerica {
+    color: azure;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+    .grid-places .sudamerica .tabla {
+      display: grid;
+      margin-left: 8px; }
+      .grid-places .sudamerica .tabla img {
+        height: 40px;
+        margin-bottom: 10px; }
+  .grid-places .oceania {
+    color: azure;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+    .grid-places .oceania .tabla {
+      display: grid;
+      margin-left: 8px;
+      margin-right: 8px; }
+      .grid-places .oceania .tabla img {
+        height: 40px;
+        margin-bottom: 10px; }
+
+footer {
+  background-color: aquamarine; }
+  footer .logos-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .logos-redes-sociales img {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 50px;
+      width: 50px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%; }
+
+.nav__links {
+  list-style: none; }
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.nav__links li a {
+  transition: all 0.3 ease 0s; }
+
+.nav__links img {
+  margin-right: 200px;
+  height: 50px;
+  width: 350px; }
+
+.nav__links li a:hover {
+  color: #0088a9; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s; }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+body {
+  background: rgba(0, 0, 0, 0.7) url("https://wallpapercave.com/wp/wp9155208.jpg");
+  height: fit-content;
+  background-blend-mode: darken; }
+
+.formulario {
+  display: grid;
+  grid-template-columns: 2, 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .formulario .formulario-de-contacto {
+    color: azure; }
+  .formulario .nombre {
+    color: azure; }
+  .formulario .apellido {
+    color: azure; }
+  .formulario .titulo-del-texto {
+    margin-bottom: 10px;
+    color: azure; }
+  .formulario .texto {
+    margin-bottom: 30px; }
+  .formulario .email {
+    color: azure; }
+  .formulario .enviar-mensaje {
+    margin-bottom: 10px;
+    margin-top: 15px; }
+
+footer {
+  background-color: aquamarine; }
+  footer .logos-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .logos-redes-sociales img {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 50px;
+      width: 50px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%; }
+
+.nav__links {
+  list-style: none; }
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.nav__links li a {
+  transition: all 0.3 ease 0s; }
+
+.nav__links img {
+  margin-right: 200px;
+  height: 50px;
+  width: 350px; }
+
+.nav__links li a:hover {
+  color: #0088a9; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s; }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  display: flex; }
+  .grid .justice {
+    margin-top: 50px;
+    margin-left: 50px; }
+    .grid .justice .descripcion-justice {
+      color: azure;
+      margin-top: 10px; }
+  .grid .changes {
+    margin-top: 50px;
+    margin-left: 50px; }
+    .grid .changes .descripcion-changes {
+      color: azure;
+      margin-top: 10px; }
+  .grid .purpose {
+    margin-top: 50px;
+    margin-left: 50px; }
+    .grid .purpose .descripcion-purpose {
+      color: azure;
+      margin-top: 10px; }
+  .grid .my-world {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .grid .my-world .descripcion-my-world {
+      color: azure;
+      margin-top: 10px; }
+  .grid footer {
+    background-color: aquamarine;
+    display: flex; }
+    .grid footer .logos-redes-sociales {
+      display: flex;
+      justify-content: space-around; }
+      .grid footer .logos-redes-sociales img {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 50px;
+        width: 50px; }
+
+footer {
+  background-color: aquamarine; }
+  footer .logos-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .logos-redes-sociales img {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 50px;
+      width: 50px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 10%; }
+
+.nav__links {
+  list-style: none; }
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.nav__links li a {
+  transition: all 0.3 ease 0s; }
+
+.nav__links img {
+  margin-right: 200px;
+  height: 50px;
+  width: 350px; }
+
+.nav__links li a:hover {
+  color: #0088a9; }
+
+button {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s; }
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+.imagenes {
+  display: grid;
+  grid-template-rows: 2, 50%;
+  grid-template-columns: 2, 50%; }
+  .imagenes .fotos {
+    text-align: center;
+    color: azure; }
+
+.videos {
+  display: grid;
+  grid-template-rows: 2, 50%;
+  grid-template-columns: 2, 50%; }
+  .videos .video {
+    text-align: center;
+    color: azure; }
+
+footer {
+  background-color: aquamarine; }
+  footer .logos-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .logos-redes-sociales img {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 50px;
+      width: 50px; }

@@ -1,0 +1,54 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    display: flex;
+    
+    .justice {
+        margin-top: 50px;
+        margin-left: 50px;
+        .descripcion-justice {
+            color: azure;
+            margin-top: 10px;
+        }
+    }
+    .changes {
+        margin-top: 50px;
+        margin-left: 50px;
+        .descripcion-changes {
+            color: azure;
+            margin-top: 10px;
+        }
+    }
+    .purpose {
+        margin-top: 50px;
+        margin-left: 50px;
+        .descripcion-purpose {
+            color: azure;
+            margin-top: 10px;
+        }
+    }
+    .my-world {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        .descripcion-my-world {
+            color: azure;
+            margin-top: 10px;
+        }
+    }
+    footer {
+        background-color:aquamarine;
+        display: flex;
+        .logos-redes-sociales {
+            display: flex;
+            justify-content: space-around;
+            img {
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+}

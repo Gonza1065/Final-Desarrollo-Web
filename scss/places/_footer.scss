@@ -1,0 +1,15 @@
+footer {
+    background-color:aquamarine;
+    .logos-redes-sociales {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        img {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
